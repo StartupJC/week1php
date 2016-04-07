@@ -1,12 +1,10 @@
 .red{
-	
 	height: 50px;
 	width: 50px;
 	margin: -2px;
 	display: inline-block;
 	vertical-align: top;
 	background-color: red;
-
 }
 
 .black{
@@ -17,4 +15,8 @@
 	vertical-align: top;
 	background-color: black;
 
+}
+
+body{
+	width: 401px;
 }
