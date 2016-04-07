@@ -7,6 +7,7 @@
     	<fieldset>
     	<div id = 'Text_Dimensions'>
     		<h3> Submitted Information</h3>
+<<<<<<< HEAD
 <?php
 function checkUsername($username) {
     if (empty($first_name)) {
@@ -33,6 +34,8 @@ if ($validusername !== true) {
      echo "An error occured: " . $validUsername;
 }
  ?>   
+=======
+>>>>>>> fba6c53891068bb0426cf88c10b9a43fde4ff2d2
     		<p>Your name is: <?php echo $_POST['first_name']; ?></p>
 			<p>Dojo location: <?php echo $_POST['locations']; ?></p>
 			<p>Favorite language: <?php echo $_POST['languages']; ?></p>
