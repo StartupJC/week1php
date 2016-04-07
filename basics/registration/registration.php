@@ -12,7 +12,7 @@
     <body>
     	<div id = 'Text_Dimensions'>
 	  	   	<form action = 'regprocess.php' method = 'POST'>
-	  	   		<p><?php echo $_SESSION['error_text']; session_destroy();
+	  	   		<p><?php echo $_SESSION['error_text'];
 ?></p>
 	  	   	<fieldset>
 	  	   		<legend>Submit Info</legend>
@@ -29,7 +29,7 @@
 				<input type = 'password' name = 'confirm_password'>
 				<h4>Birth Date:</h4>
 				<input type = 'text' name = 'birth_date' value='MM/DD/YYYY'>
-				<input id = 'Submit' type = 'submit' value = 'submit'>
+				<input type = 'submit' value = 'submit'>
 		</div>
 
 			</fieldset>
